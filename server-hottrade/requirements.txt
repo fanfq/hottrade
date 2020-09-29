@@ -1,0 +1,17 @@
+apps==0.0.0.0.dev20200918
+APScheduler==3.6.3
+asgiref==3.2.10
+certifi==2020.6.20
+chardet==3.0.4
+Django==3.1.1
+django-apscheduler==0.4.2
+djangorestframework==3.11.1
+idna==2.10
+parameter==0.0.3.dev2
+PyMySQL==0.10.1
+pytz==2020.1
+requests==2.24.0
+six==1.15.0
+sqlparse==0.3.1
+tzlocal==2.1
+urllib3==1.25.10
