@@ -1,0 +1,39 @@
+<view class="page" data-weui-theme="{{theme}}">
+
+<view class="page__bd">
+
+  <view class="weui-cells__title" style="margin-top:-5px;padding-top:16px;">货币列表</view>
+        <view class="weui-cells weui-cells_checkbox weui-cells_after-title">
+            <checkbox-group bindchange="checkboxChange">
+                <label class="weui-cell weui-check__label" wx:for="{{contorys}}" wx:key="name">
+                    <view class="weui-cell__hd">
+                        <checkbox
+                            class="weui-check"
+                            value="{{item.name}}"
+                            checked="{{item.favorite}}"
+                        />
+                        <i class="weui-icon-checked"></i>
+                    </view>
+
+                    <view class="weui-cell__hd">
+                        <image src="{{item.img_url}}" style="margin-right: 0px;vertical-align: middle;width:30px; height: 30px;"></image>
+                    </view>
+                    <view class="weui-cell__bd">
+                        {{item.name}} 
+                    </view>
+
+                    <view style="font-size:12px;color:var(--weui-FG-1);text-align:right;margin:0;padding:0;">{{item.zh_cn}}</view>
+                </label>
+            </checkbox-group>
+           
+        </view>
+
+
+
+
+
+   
+ 
+</view>
+
+</view>
