@@ -124,13 +124,9 @@ python 和 前段 都是刚刚开始学习的，代码有点拙劣，以后再�
 
 客户端为原生微信小程序，使用微信官方UI控件库
 
-微信扫描
-
-![qrcde](qrcode.jpg)
-
 微信小程序预览
 
-![preview](preview.png)
+![preview](wechat.png)
 
 chrome插件预览
 
