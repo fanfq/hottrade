@@ -1,7 +1,7 @@
 # 微信小程序hottrade(汇率计算器)开源
 
 -- 20201013 跟新
-1. 增加google chrome 插件版本
+1. 增加google chrome 插件版本 hottradeplugin.crx 直接拖进chrome即可
 2. 完善产品描述
 
 --
