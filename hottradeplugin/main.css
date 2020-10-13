@@ -1,0 +1,142 @@
+
+
+.container {
+	width: 260px;
+	min-height: 100px;
+	max-height: 260px;
+	overflow-y: auto;
+	padding: 0px 5px;
+}
+
+.item{
+	width: 100%;
+    height:30px;
+	margin: 0 auto;
+	position: relative;
+	padding-top:5px;
+  padding-top:5px;
+}
+
+.leftbox {
+  width: 40px;
+  float: left;
+}
+.midbox {
+  width: 120px;      
+  float: left;
+  
+}
+.rightbox {
+  width: 80px;
+  float: right;
+  padding-right:5px;
+}
+
+
+
+
+.top {
+        height: 15px;
+        text-align: left;
+		font-weight: bold;
+		font-size: 12px;
+    }
+.bottom {
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 40px;
+    right: 0;
+    height: auto;
+    width: auto;
+    text-align: left;
+	color: gray;
+	font-size: 12px;
+	-webkit-transform-origin-x: 0;
+	-webkit-transform: scale(0.90);
+}
+
+
+
+
+
+
+/*tbody tr:hover {
+	background: #f5fafe;
+}*/
+
+.img{
+	margin-right: 10px;
+	vertical-align: middle;
+	width:26px; 
+	height: 26px;
+}
+
+hr {/*透明渐变水平线*/
+ height:1px;border:none;border-top:1px dashed gray;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.hr2 {/*透明渐变水平线*/
+ height:1px;border:none;border-top:1px dashed gray;
+ width:220px;
+ margin-right: 0px;
+	margin-top: 15px;
+	margin-bottom: 1px;
+}
+
+.sync {
+	width: 100%;
+	text-align: center;
+	color: gray;
+	margin-top: 10px;
+	font-size: 12px;
+	-webkit-transform-origin-x: 0;
+	-webkit-transform: scale(0.9);
+}
+
+
+.subs{
+	color: gray;
+	font-size: 12px;
+	-webkit-transform-origin-x: 0;
+	-webkit-transform: scale(0.90);
+	margin-top: 10px;
+	margin-bottom: 1px;
+	padding-top: 0px;
+	padding-left: 1px;
+}
+
+.name {
+	text-align: left;
+	font-weight: bold;
+	font-size: 12px;
+	-webkit-transform: scale(1);
+}
+
+.name_desc{
+	text-align: left;
+	color: gray;
+	font-size: 12px;
+	-webkit-transform-origin-x: 0;
+	-webkit-transform: scale(0.90);
+}
+.val{}
+.display{
+	font-size: 15px;
+	text-align: right;
+	width: 100%;
+	height: 25px;
+	color: gray;
+	border: 0;  // 去除未选中状态边框
+    outline: none; // 去除选中状态边框
+    background-color: rgba(0, 0, 0, 0);// 透明背景
+}
+
+.setup {
+	text-align: center;
+	margin-top: 50px;
+}
+
+

@@ -1,0 +1,23 @@
+{
+	"content_security_policy": "script-src 'self'; object-src 'self'",
+	"manifest_version": 2,
+	"name": "Hot Trade",
+	"version": "1.0",
+	"description": "一个开源的极简风格汇率计算器",
+	"icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "128": "images/icon128.png"
+    },
+	"browser_action": {
+		"default_icon": {
+            "16": "images/icon16.png",
+        	"32": "images/icon32.png"
+        },
+		"default_title": "Hot Trade",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+        "https://*"
+    ]
+}
