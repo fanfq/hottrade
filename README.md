@@ -126,7 +126,7 @@ python 和 前段 都是刚刚开始学习的，代码有点拙劣，以后再�
 
 微信小程序预览
 
-![preview](wechat.png)
+![preview](wechat.jpg)
 
 chrome插件预览
 
